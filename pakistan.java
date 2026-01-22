@@ -1,3 +1,4 @@
+import java.nio.file.WatchEvent;
 import java.util.Scanner;
 class pakistan
 {
@@ -98,9 +99,57 @@ class pakistan
             System.out.println("Original String: [" + P1 + "]");
             System.out.println("Stripped String: [" + strippedString + "]");              
             */
-           String pakistan = "454484545454pakistan454545454";
-        System.out.println(pakistan.lastIndexOf("pakistan"));
 
-        
+		/*
+            String pakistan = "454484545454pakistan454545454";
+      	    System.out.println(pakistan.lastIndexOf("pakistan"));
+
+		*/
+
+			/*
+			Scanner ki =new Scanner(System.in);
+			String A;
+			System.out.println("enter decimal no:");
+			A = ki.nextLine();
+			int BD = A.indexOf(".");
+			System.out.println("Digit before decimal:" + BD);
+			int AD = A.length() -BD;
+			System.out.println("Digit after decimal:" + AD);
+			*/
+			/*
+			Scanner ki =new Scanner(System.in);
+			float A;
+			double B;
+			int C;
+			String D;
+			System.out.println("enter decimal no:");
+			A = ki.nextFloat();
+			/*
+			System.out.println("enter decimal no:");
+			B = ki.nextDouble();
+			/*
+			System.out.println("enter integar no:");
+			C = ki.nextInt();
+			String AString = String.valueOf(A);
+			// String BString = String.valueOf(B);			
+			String CString = String.valueOf(C);
+			
+			System.out.println("VALUE OF A AS STRING:" + AString);
+			System.out.println("Length Of A As String:" + AString.length());
+			// D = 	AString + CString;
+			// System.out.println("concat of A & B string:" + D);
+			System.out.println("concat of A & B string:" + AString.concat("" + CString));
+			/*
+			String s = "HelloHihellohi";
+			String[] words = s.split("Hello");
+			System.out.println("the spilt is like:" + words[1]);
+			*/
+			
+			/*
+			String my = "ABCDEF";
+			int code = my.codePointAt(2);
+			System.out.println("ASCI CODE OF C IS:" + code);
+			*/
+					
     }
 }
