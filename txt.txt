@@ -1,0 +1,25 @@
+stings 
+
+1 length
+2 upper/lower case
+3 replace
+4 charAT
+5 indexof
+6 trim
+7 equals
+8 equals to ignorecase
+9 compare to
+10 compare to ignore case
+11 concat
+12 code PointAt
+13 contain
+14 substring
+15 start with
+16 end with
+17 spilt 
+18 strip
+19 value of 
+20 get bytes (sir se class and impor change hn)
+21 last index of
+
+
